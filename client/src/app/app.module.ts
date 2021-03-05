@@ -27,7 +27,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { MatButtonModule } from '@angular/material/button';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { DateInputComponent } from './_forms/date-input/date-input.component';
-
+import { TestsignalrComponent } from './testsignalr/testsignalr.component';
+import * as $ from ''
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +45,8 @@ import { DateInputComponent } from './_forms/date-input/date-input.component';
     MemberCardComponent,
     MemberEditComponent,
     TextInputComponent,
-    DateInputComponent
+    DateInputComponent,
+    TestsignalrComponent
   ],
   imports: [
     BrowserModule,

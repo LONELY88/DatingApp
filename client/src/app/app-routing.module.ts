@@ -11,6 +11,7 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { MessageComponent } from './message/message.component';
 import { AuthGuard } from './_guards/auth.guard';
 import { PreventUnsavedChangesGuard } from './_guards/prevent-unsaved-changes.guard';
+import { TestsignalrComponent } from "./testsignalr/testsignalr.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
     ]
   },
   {path: 'errors', component:TestErrorsComponent},
+  {path: 'testsignalr', component:TestsignalrComponent},
   {path: 'not-found', component:NotFoundComponent},
   {path: 'server-error', component:ServerErrorComponent},
   {path: '**', component:NotFoundComponent, pathMatch: 'full'},
